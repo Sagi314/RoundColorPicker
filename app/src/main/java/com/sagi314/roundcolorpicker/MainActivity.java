@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //getting the color picker from xml
+        /*//getting the color picker from xml
         RoundColorPicker roundColorPicker = findViewById(R.id.round_color_picker);
 
         //setting the 'onColorChanged' listener to the method below (onColorChanged(int color))
@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity
         roundColorPicker.selectColor(Color.BLUE, true);
 
         //get current selected color
-        roundColorPicker.getSelectedColor();
+        roundColorPicker.getSelectedColor();*/
     }
 
     //this method will be activated any time the user will select a color
-    private void onColorChanged(int color)
+   /* private void onColorChanged(int color)
     {
         //do something with the color
-    }
+    }*/
 }
